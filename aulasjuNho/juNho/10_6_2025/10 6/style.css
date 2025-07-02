@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #222;
+}
+canvas {
+   border: 20px ridge green ;
+   background-color: darkcyan;
+   box-shadow: 0 4px 500px green;
+}
+button {
+    padding: 20px;
+}
