@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cofrinho</title>
+    <link rel="stylesheet" href="61.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Mini Cofrinhos</h1>
+            <button id="toggleTheme">☺</button>
+        </header>
+        <form id="formCofrinho">
+            <input type="number" id="valor"
+            step="0.01" placeholder="Digite o valor" required/>
+            <button type="submit">Adicionar</button>
+        </form>
+        <div class="total">
+            Total: R$ <span id="total">0.00</span>
+        </div>
+        <ul id="listaValores"></ul>
+        <button id="resetar">Esvaziar Cofrinhos</button>
+    </div>
+    <script src="61.js"></script>
+</body>
+</html>

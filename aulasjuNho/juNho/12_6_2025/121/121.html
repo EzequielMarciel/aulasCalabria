@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria com filtros</title>
+    <link rel="stylesheet" href="121.css">
+</head>
+<body>
+    <div class="A">
+    <h1>Galeria com filtros</h1>
+
+    <div class="botoes">
+        <button onclick="aplicarFiltro('none')">Original</button>
+        <button onclick="aplicarFiltro('grayscale(100%)')">Preto e Branco</button>
+        <button onclick="aplicarFiltro('sepia(100%)')">Sépia</button>
+        <button onclick="aplicarFiltro('blur(3px)')">desfoque</button>
+    </div>
+    </div>
+    <div class="galeria" id="galeria">
+        <img src="C.jpg" alt="1" width="100%">
+        <img src="D.jpg" alt="2" width="300">
+        <img src="E.jpg" alt="3" width="150">
+    </div>
+    <script src="121.js"></script>
+</body>
+</html>
