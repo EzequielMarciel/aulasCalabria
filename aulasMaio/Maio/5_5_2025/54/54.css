@@ -1,0 +1,36 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    background: color #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.card {
+    background-color:#fff;
+    border-radius:10px;
+    box-shadow: 0 4px 8px;
+    padding:20px;
+    text-align:center;
+    max-width: 300px;
+}
+.card-image {
+    color:#333;
+    font-size: 1.5rem;
+    margin:10px 0;
+}
+.card-description {
+    color:#777;
+    font-size:1rem;
+    margin:10px 0;
+}
+.card-links {
+    display:flex;
+    justify-content:center ;
+    gap:10px;
+}
+.card-link:hover {
+    text-decoration:underline;
+}
