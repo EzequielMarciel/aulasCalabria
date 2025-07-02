@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout com Grid</title>
+    <link rel="stylesheet" href="centro.css">
+</head>
+<body>
+    <script> 
+        document.querySelector("img").addEventListener("click", () => {
+            alert("Imagem clicada!");
+        });
+    </script>
+    <div class="grid-container">
+        <header class="header">Cabeçalho</header>
+        <aside class="sidebar">Menu Lateral 
+            <ul>
+                <li><a href="https://ad.soicos.com" target="_blank">soicos</a></li>        
+                <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+                <li><a href="https://www.awin1.com/" target="_blank">Centauro</a></li>
+            </ul>
+        </aside>
+        <main class="main-content">
+            Conteúdo principal <br>
+            <img src="imagemA.webp" />
+            <iframe width="300" height="200" 
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                title="Vídeo do YouTube"
+                allowfullscreen>
+            </iframe>
+        </main>
+    </div> <!-- Fechamento correto da div grid-container -->
+    <footer class="footer">Rodapé</footer>
+</body>
+</html>

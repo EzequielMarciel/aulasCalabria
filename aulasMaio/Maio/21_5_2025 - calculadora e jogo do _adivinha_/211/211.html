@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhação</title>
+    <link rel="stylesheet" href="211.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Adivinhe o número!</h1>
+        <p>Estou pensando em um número de 1 a 100.</p>
+        <div class="input-container">
+            <input type="number" id="tentativa" min="1" max="100">
+            <button onclick="verificarTentativa()">Adivinhar</button>
+        </div>
+        <p id="mensagem"></p>
+        <p id="tentativasRestantes"></p>
+        </div>
+<script src="211.js"></script>
+</body>
+</html>
